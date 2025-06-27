@@ -23,6 +23,21 @@ This repository contains hands-on projects for preparing quantitative research a
 
 ---
 
+### 🔍 Feature Engineering & Signal Logic
+
+- Extended the Apple dataset with:
+  - 7-Day Moving Average (MA_7)
+  - 14-Day Volatility (rolling std)
+  - Daily Returns (% change)
+  - Simple Buy Signal: Close > MA_7
+- Saved processed data as CSV: `apple_with_signals.csv`
+- Saved visual chart of price + signal overlay: `apple_ma7_signal.png`
+
+🖼 **Preview:**
+![Apple Signal Plot](apple_ma7_signal.png)
+
+---
+
 ## 🛠 Tools Used
 
 - Python (pandas, matplotlib)
