@@ -38,6 +38,21 @@ This repository contains hands-on projects for preparing quantitative research a
 
 ---
 
+
+## 📊  NIFTY vs BANKNIFTY Comparative Analysis (2023–2025)
+
+- Downloaded historical daily prices for NIFTY and BANKNIFTY using yfinance
+- Normalized both indices to a base value of 100 for fair comparison
+- Visualized relative performance on a single plot
+- Exported chart and data for further analysis
+
+📘 [View Notebook](./Nifty_banknifty_compare.ipynb)
+
+🖼 *Chart Preview:*
+![NIFTY vs BANKNIFTY](nifty_banknifty_comparison.png)
+
+📄 [Download Normalized Data (CSV)](./nifty_banknifty_normalized.csv)
+
 ## 🛠 Tools Used
 
 - Python (pandas, matplotlib)
