@@ -53,6 +53,22 @@ This repository contains hands-on projects for preparing quantitative research a
 
 📄 [Download Normalized Data (CSV)](./nifty_banknifty_normalized.csv)
 
+
+---
+
+## 📈 XAUUSD MA Strategy Backtest
+
+Tests a simple moving average crossover on gold (XAUUSD).  
+Buy when `Close > MA(7)`, hold for 5 days, exit.
+
+- Trades: 49
+- Avg Return/Trade: 0.14%
+- Cumulative Return: +7.18%
+
+![XAUUSD Strategy vs Buy and Hold](xauusd_strategy_vs_bh.png)
+
+📘 [View Notebook](./xauusd_ma_backtest.ipynb)
+
 ## 🛠 Tools Used
 
 - Python (pandas, matplotlib)
