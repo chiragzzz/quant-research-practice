@@ -85,11 +85,10 @@ This project detects classic candlestick patterns using daily OHLC data for EURU
 - 🔺 Bullish Engulfing (bullish reversal)
 - 💎 Hammer (bullish reversal with long wick)
 
-Each pattern is marked visually on an interactive Plotly chart and saved as a high-resolution PNG.
+Each pattern is marked on an interactive Plotly candlestick chart.
 
-![EURUSD Candlestick Patterns](5.eurusd_candlestick_patterns.png)
-
-📘 [Open Notebook](./5.eurusd_candlestick_patterns.ipynb)
+📘 [View Notebook](./5.eurusd_candlestick_patterns.ipynb)  
+📊 [View Interactive Chart](./5.eurusd_candlestick_patterns.html)  
 📄 [View Labeled Dataset](./5.EURUSD_patterns_2025.csv)
 
 
