@@ -77,6 +77,24 @@ Buy when `Close > MA(7)`, hold for 5 days, exit.
 
 ---
 
+## 🔍 EURUSD Candlestick Pattern Detection
+
+This project detects classic candlestick patterns using daily OHLC data for EURUSD (Jan–Jun 2025):
+
+- 📍 Doji (indecision)
+- 🔺 Bullish Engulfing (bullish reversal)
+- 💎 Hammer (bullish reversal with long wick)
+
+Each pattern is marked visually on an interactive Plotly chart and saved as a high-resolution PNG.
+
+![EURUSD Candlestick Patterns](5.eurusd_candlestick_patterns.png)
+
+📘 [Open Notebook](./5.eurusd_candlestick_patterns.ipynb)
+📄 [View Labeled Dataset](./5.EURUSD_patterns_2025.csv)
+
+
+
+
 ## 🔗 Author
 
 Chirag Puthran  
