@@ -91,7 +91,24 @@ Each pattern is marked on an interactive Plotly candlestick chart.
 📊 [View Interactive Chart](./5.eurusd_candlestick_patterns.html)  
 📄 [View Labeled Dataset](./5.EURUSD_patterns_2025.csv)
 
+---
 
+## 🔁 ETF Rebalance Flow Simulation
+
+This project simulates how an ETF (₹100 crore) tracking a stock index would rebalance its portfolio when index weights change.
+
+### 🔍 What It Does:
+- Calculates stock-wise fund flows (buy/sell ₹ crores)
+- Estimates impact based on daily traded volume
+- Highlights high-pressure names
+- Visualizes results using bar charts
+
+### 📂 Files:
+- `6.mock_index_rebalance_data.csv`: Input dataset with index weights before/after
+- `6.index_rebalance_flows.ipynb`: Full logic + visualizations
+- `6.ETF_rebalance_simulation_output.csv`: Output with all computed flow metrics
+
+---
 
 
 ## 🔗 Author
