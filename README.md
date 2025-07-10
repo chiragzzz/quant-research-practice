@@ -110,6 +110,22 @@ This project simulates how an ETF (₹100 crore) tracking a stock index would re
 
 ---
 
+## 🔁 NIFTY50 June 2025 Real Rebalance Simulation
+
+This project simulates a ₹1000 crore ETF rebalancing based on the upcoming June 2025 NIFTY50 index changes (e.g., addition of BSE, INDIGO; removal of INDUSINDBK, HEROMOTOCO).
+
+### 🧠 What It Does:
+- Calculates ETF buy/sell flows per stock
+- Estimates flow pressure as % of daily traded volume
+- Highlights most impacted stocks (possible price reaction)
+- Real-world inspired: based on predicted NIFTY changes
+
+### 📂 Files:
+- `7.nifty50_june2025_rebalance.csv`: Input stock weight + volume data
+- `7.real_nifty_rebalance.ipynb`: Full logic + visualizations
+- `7.NIFTY50_June2025_Rebalance_Output.csv`: Output dataset with flows and pressure metrics
+
+---
 
 ## 🔗 Author
 
