@@ -127,6 +127,25 @@ This project simulates a ₹1000 crore ETF rebalancing based on the upcoming Jun
 
 ---
 
+## 📈 Alpha Factor Engineering (Momentum + Volatility)
+
+This notebook demonstrates how to build technical alpha factors from real stock data.
+
+### 🧪 What It Does:
+- Loads real OHLCV data for 10 NIFTY stocks (2023–2025)
+- Cleans missing data, removes duplicates
+- Calculates:
+  - 20-day Momentum (past return)
+  - 20-day Volatility (risk measure)
+- Ranks stocks by momentum
+
+### 📂 Files:
+- `8.nifty_alpha_factors_unclean.csv`: Raw messy stock data
+- `8.nifty_alpha_factors_cleaned.csv`: Cleaned dataset with features
+- `8.alpha_factor_engineering.ipynb`: Full logic + ranking snapshot
+
+---
+
 ## 🔗 Author
 
 Chirag Puthran  
