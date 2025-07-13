@@ -146,6 +146,28 @@ This notebook demonstrates how to build technical alpha factors from real stock 
 
 ---
 
+## 🔁 Long-Short Momentum Strategy Backtest
+
+This notebook simulates a momentum-based long-short strategy:
+- ✅ Long top 3 stocks by 20-day momentum
+- ❌ Short bottom 3 stocks
+- 📆 Holding period: 10 business days
+- 🔁 Rebalanced every 10 days
+
+### 🧠 Signals Used:
+- 20-day return (Momentum)
+- Equal weighting, no leverage or stop loss
+
+### 📊 Outputs:
+- Cumulative return graph
+- Full trade log with tickers and PnL
+
+### 📂 Files:
+- `9.alpha_strategy_backtest.ipynb`
+- `9.momentum_strategy_returns.csv`
+
+---
+
 ## 🔗 Author
 
 Chirag Puthran  
