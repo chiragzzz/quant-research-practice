@@ -166,6 +166,19 @@ This notebook simulates a momentum-based long-short strategy:
 - `9.alpha_strategy_backtest.ipynb`
 - `9.momentum_strategy_returns.csv`
 
+### 🧪 Strategy Comparison: Raw vs Filtered
+
+This notebook also compares:
+- Raw momentum signal (top/bottom 3 by 20-day return)
+- Volatility-filtered version (removes top 25% volatile stocks)
+
+📊 Results:
+- Strategy smoothness improves
+- Return quality is more stable
+
+📂 New Files:
+- `9.momentum_strategy_filtered_returns.csv`
+
 ---
 
 ## 🔗 Author
