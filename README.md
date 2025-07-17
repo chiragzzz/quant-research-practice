@@ -181,6 +181,77 @@ This notebook also compares:
 
 ---
 
+# 📈 Multi-Signal Alpha Strategy (Momentum + Volatility)
+
+This project builds a composite alpha-generating strategy by combining two technical factors — **Momentum** and **Volatility** — using cleaned price data of NIFTY50 stocks.
+
+---
+
+## 🔍 Objective
+
+Simulate a simple long-short equity strategy based on:
+- **Momentum (20-day)**: Prior performance trend
+- **Volatility (20-day)**: Normalized price fluctuation
+
+The goal is to allocate capital to stocks showing strong positive momentum with low volatility (longs) and short those with negative momentum and/or high volatility.
+
+---
+
+## 🧹 Data Preprocessing
+
+- ✅ Removed missing values (`NaN`)
+- ✅ Eliminated duplicates
+- ✅ Converted `Date` to datetime format
+- ✅ Checked for consistency in volume & price columns
+
+---
+
+## ⚙️ Strategy Logic
+
+- For every 10th trading day (rolling window):
+  - Rank all stocks by:
+    - High momentum → top 3 **long**
+    - Low momentum → bottom 3 **short**
+  - Track holding period for 10 days
+  - Compute returns for each stock in the portfolio
+  - Log average strategy return per rebalance period
+
+---
+
+## 📊 Visual Output
+
+A **line chart** showing how the strategy's cumulative returns evolve over time:
+
+| ![Composite Alpha Chart](10.composite_alpha_strategy.png) |
+|:--:|
+| *Cumulative Strategy Return Over Time* |
+
+---
+
+## 📝 Output Files
+
+- `10.composite_alpha_strategy.ipynb` → Strategy notebook
+- `10.composite_alpha_strategy.csv` → Final strategy returns, long/short picks
+- `10.composite_alpha_strategy.png` → Cumulative return chart
+
+---
+
+## 💡 Next Steps (Optional Enhancements)
+- Add Sharpe ratio or CAGR metrics
+- Compare vs NIFTY50 benchmark
+- Try factor weighting: `0.7 * Momentum + 0.3 * Volatility`
+- Add risk management layer (e.g. max drawdown constraint)
+
+---
+
+## 🛠️ Skills Applied
+- Data cleaning and feature engineering
+- Rolling window backtesting
+- Long/short equity logic
+- Matplotlib & pandas plotting
+
+---
+
 ## 🔗 Author
 
 Chirag Puthran  
